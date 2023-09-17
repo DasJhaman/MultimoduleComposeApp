@@ -3,7 +3,6 @@ package de.multimodule.compposeapp.presentation
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import de.multimodule.compposeapp.domain_layer.features.userlist.features.users.GetUsersListUseCase
-import de.multimodule.compposeapp.domain_layer.features.userlist.models.Users
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

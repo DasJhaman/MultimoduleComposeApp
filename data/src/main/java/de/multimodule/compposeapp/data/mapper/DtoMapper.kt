@@ -6,6 +6,7 @@ import de.multimodule.compposeapp.domain_layer.features.userlist.models.Users
 
 fun UserDto.toUser(): Users =
     Users(
+        id =  id,
         name = name,
         userName = userName,
         email = email
