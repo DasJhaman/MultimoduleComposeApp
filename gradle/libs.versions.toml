@@ -14,13 +14,12 @@ dagger = "2.44"
 koin-ref = "3.4.3"
 koin-android-ref = "3.4.3"
 koin-compopse-ref = "3.4.6"
-ktorRef ="2.3.3"
+ktorRef = "2.3.3"
 org-jetbrains-kotlin-jvm = "1.8.10"
-
-
-#val koinRef = version("koin", "3.4.3")
-#val koinAndroidRef = version("koin-android", "3.4.3")
-#val koinComposeRef = version("koin-android", "3.4.6")
+mock-ref = "1.13.7"
+koltin-coroutine = "1.7.3"
+coroutines-test-ref = "1.6.0"
+kotlin-mockit0-ref = "5.1.0"
 
 
 [libraries]
@@ -40,25 +39,24 @@ ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 material3 = { group = "androidx.compose.material3", name = "material3" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
-#hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "dagger" }
-#hilt-kapt = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "dagger" }
 koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin-ref" }
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin-android-ref" }
 koin-android-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin-compopse-ref" }
-
 ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktorRef" }
 ktor-client-json = { group = "io.ktor", name = "ktor-client-json", version.ref = "ktorRef" }
 ktor-client-serialization = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktorRef" }
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktorRef" }
 ktor-http = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktorRef" }
-
+test-mock = { group = "io.mockk", name = "mockk", version.ref = "mock-ref" }
+kotin-couroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "koltin-coroutine" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines-test-ref" }
+kotlin-mockito = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "kotlin-mockit0-ref" }
 
 [plugins]
 com-android-application = { id = "com.android.application", version.ref = "agp" }
 org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
 com-android-library = { id = "com.android.library", version.ref = "agp" }
 org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
-#dagger-hilt-android-plugin = { id = "com.google.dagger.hilt.android", version.ref = "dagger" }
 
 [bundles]
 ktor-common = ["ktor-client-core", "ktor-client-json", "ktor-client-serialization", "ktor-client-content-negotiation"]
