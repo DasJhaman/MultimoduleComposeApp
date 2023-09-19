@@ -61,7 +61,6 @@ android {
 
 dependencies {
     implementation(projects.presentation)
-    implementation(projects.domainLayer)
     implementation(projects.data)
     implementation(libs.koin.core)
 }
