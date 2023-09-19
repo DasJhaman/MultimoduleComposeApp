@@ -1,4 +1,4 @@
-package de.multimodule.compposeapp.presentation
+package de.multimodule.compposeapp.presentation.ui.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -20,12 +20,10 @@ class MainViewModel(private val getUsersListUseCase: GetUsersListUseCase) : View
     private fun getUserData() {
         viewModelScope.launch {
             getUsersListUseCase().collect {
-                _uiData.update { prev->
+                _uiData.update { prev ->
                     prev.copy(userList = it)
                 }
             }
         }
     }
-
-
 }

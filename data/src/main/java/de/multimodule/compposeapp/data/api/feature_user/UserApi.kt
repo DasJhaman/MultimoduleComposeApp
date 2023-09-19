@@ -1,4 +1,4 @@
-package de.multimodule.compposeapp.data.api
+package de.multimodule.compposeapp.data.api.feature_user
 
 import de.multimodule.compposeapp.data.api.dto.UserDto
 import io.ktor.client.HttpClient

@@ -1,4 +1,4 @@
-package de.multimodule.compposeapp.presentation
+package de.multimodule.compposeapp.presentation.ui.main
 
 import de.multimodule.compposeapp.domain_layer.features.userlist.models.Users
 

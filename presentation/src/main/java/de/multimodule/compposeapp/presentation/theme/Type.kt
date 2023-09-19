@@ -1,4 +1,4 @@
-package de.multimodule.compposeapp.presentation
+package de.multimodule.compposeapp.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

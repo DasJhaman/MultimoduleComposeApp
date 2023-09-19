@@ -1,7 +1,7 @@
 package de.multimodule.compposeapp.data.repo.features.users
 
 
-import de.multimodule.compposeapp.data.api.UserApi
+import de.multimodule.compposeapp.data.api.feature_user.UserApi
 import de.multimodule.compposeapp.data.api.dto.UserDto
 import de.multimodule.compposeapp.data.mapper.toUsers
 import de.multimodule.compposeapp.domain_layer.features.userlist.models.Users

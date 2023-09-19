@@ -3,7 +3,7 @@ package de.multimodule.compposeapp.android
 import android.app.Application
 import android.content.Context
 import de.multimodule.compposeapp.data.initKoin
-import de.multimodule.compposeapp.presentation.MainViewModel
+import de.multimodule.compposeapp.presentation.ui.main.MainViewModel
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.module
 

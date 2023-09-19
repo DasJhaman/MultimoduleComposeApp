@@ -1,6 +1,6 @@
 package de.multimodule.compposeapp.data
 
-import de.multimodule.compposeapp.data.api.UserApi
+import de.multimodule.compposeapp.data.api.feature_user.UserApi
 import de.multimodule.compposeapp.data.repo.features.users.UserRepositoryImp
 import de.multimodule.compposeapp.domain_layer.features.userlist.features.users.UserRepository
 import org.koin.core.KoinApplication
